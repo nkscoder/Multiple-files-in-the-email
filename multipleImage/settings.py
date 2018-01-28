@@ -110,16 +110,16 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media/')
 MEDIA_URL='/media/'
 
 
-SERVER_ADDRESS='http://35.154.224.52/'
-SERVER_ADDRESS_WITHOUT_SLASH='http://35.154.224.52'
+SERVER_ADDRESS='xxxx'
+SERVER_ADDRESS_WITHOUT_SLASH='xxxxx'
 
 
-USEEMAIL='contact@desiattacompany.com'
+USEEMAIL='xxxx@xxxx.com'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'sub5.mail.dreamhost.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = USEEMAIL
-EMAIL_HOST_PASSWORD ='qazplmq1w2e3r4'
+EMAIL_HOST_PASSWORD ='xxxxxx'
 DEFAULT_FROM_EMAIL = USEEMAIL
 DEFAULT_TO_EMAIL = ''
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
